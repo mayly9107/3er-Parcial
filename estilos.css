@@ -1,3 +1,77 @@
+     header{
+  background:url("img/header.png");
+  height: 690px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
 body{
   font-family: 'Nunito+Sans', sans-serif;
 }
+.logo{
+  padding: 50px;
+}
+ 
+.ref ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  margin-top: 50px;
+
+}
+
+.ref li:hover{
+  background-color: rgba(0,0,0,0.3);
+  height: 50px; 
+  border-radius: 5px;
+ 
+}
+
+.ref li a{
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding-top: 10px;
+  
+
+}
+.hi{
+  margin-top: 150px;
+}
+.hi p{
+  color: white;
+  font-size: 34px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0rem;
+
+  }
+  #work{
+    margin-top: 50px;
+  }
+  #work a{
+    border-radius: 3px;
+        border-bottom: 3px solid #c86a40;
+  margin-left: -16px;
+  text-decoration: none;
+    background: #eb7d4b;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 205px;
+    height: 49px;
+    padding: 7px 0px;
+    font-weight: normal;
+    font-size: 21px;
+    transition: 0.5s ease all;
+  }
+  #work a:hover{
+    text-decoration: none;
+  background:#f34d04;
+  transform: scale(1.05);
+    
+  }
+  
