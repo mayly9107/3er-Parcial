@@ -49,4 +49,29 @@ body{
   margin-bottom: 0rem;
 
   }
+  #work{
+    margin-top: 50px;
+  }
+  #work a{
+    border-radius: 3px;
+        border-bottom: 3px solid #c86a40;
+  margin-left: -16px;
+  text-decoration: none;
+    background: #eb7d4b;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 205px;
+    height: 49px;
+    padding: 7px 0px;
+    font-weight: normal;
+    font-size: 21px;
+    transition: 0.5s ease all;
+  }
+  #work a:hover{
+    text-decoration: none;
+  background:#f34d04;
+  transform: scale(1.05);
+    
+  }
   
