@@ -38,3 +38,15 @@ body{
   
 
 }
+.hi{
+  margin-top: 150px;
+}
+.hi p{
+  color: white;
+  font-size: 34px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0rem;
+
+  }
+  
