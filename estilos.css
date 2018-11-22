@@ -74,4 +74,8 @@ body{
   transform: scale(1.05);
     
   }
+  .bg1{
+    height: 750px;
+    background: #17c2a4;
+  }
   
