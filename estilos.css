@@ -78,4 +78,15 @@ body{
     height: 750px;
     background: #17c2a4;
   }
-  
+  .bg1 h2{
+    color: white;
+    padding-top: 110px;
+  }
+  .bg1 h2:after{
+  content:"";
+  width: 44px;
+  height: 3px;
+  background: #14a58c;
+  display: block;
+  margin: 15px auto;
+  margin-bottom: -30px;
