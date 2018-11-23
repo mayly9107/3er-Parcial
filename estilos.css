@@ -6,7 +6,7 @@
   width: 100%;
 }
 body{
-  font-family: 'Nunito+Sans', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 .logo{
   padding: 50px;
@@ -39,7 +39,7 @@ body{
 
 }
 .hi{
-  margin-top: 150px;
+  margin-top: 125px;
 }
 .hi p{
   color: white;
@@ -65,15 +65,19 @@ body{
     height: 49px;
     padding: 7px 0px;
     font-weight: normal;
-    font-size: 21px;
+    font-size: 14px;
     transition: 0.5s ease all;
   }
+
   #work a:hover{
     text-decoration: none;
   background:#f34d04;
   transform: scale(1.05);
     
   }
+  #work p{
+  margin-top: 6px;
+}
   .bg1{
     height: 750px;
     background: #17c2a4;
