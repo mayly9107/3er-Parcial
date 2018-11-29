@@ -6,7 +6,7 @@
   width: 100%;
 }
 body{
-  font-family: 'Nunito+Sans', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 .logo{
   padding: 50px;
@@ -39,7 +39,11 @@ body{
 
 }
 .hi{
+<<<<<<< HEAD
 	margin-top: 150px;
+=======
+  margin-top: 125px;
+>>>>>>> 2c54a9bae4ef0488e0fb19c082c989f5aff2ba91
 }
 .hi p{
 	color: white;
@@ -65,7 +69,7 @@ body{
     height: 49px;
     padding: 7px 0px;
     font-weight: normal;
-    font-size: 21px;
+    font-size: 14px;
     transition: 0.5s ease all;
 	}
 	#work a:hover{
@@ -193,6 +197,7 @@ body{
   #skill{
     background-color: #fff;
   }
+<<<<<<< HEAD
   .marginimg{
     margin-left: 50px;
   }
@@ -200,6 +205,21 @@ body{
     margin-top: 45px;
     margin-bottom: 55px;
 
+=======
+
+  #work a:hover{
+    text-decoration: none;
+  background:#f34d04;
+  transform: scale(1.05);
+    
+  }
+  #work p{
+  margin-top: 7px;
+}
+  .bg1{
+    height: 750px;
+    background: #17c2a4;
+>>>>>>> 2c54a9bae4ef0488e0fb19c082c989f5aff2ba91
   }
 	
  #Portfolio{
@@ -246,6 +266,70 @@ body{
     font-size: 30px;
     font-weight: bolder;
   }
+<<<<<<< HEAD
+=======
+  .bandera p{
+    color: white;
+    margin-right: -9px;
+  }
+  /*Skills */
+  #skill{
+    background-color: #fff;
+  }
+  .marginimg{
+    margin-left: 50px;
+  }
+  .skillmargin{
+    margin-top: 45px;
+    margin-bottom: 55px;
+
+  }
+   /*Portfolio*/
+  #Portfolio{
+    background-color: #ffdd99;
+  }
+ .botones1 {
+  margin: 37px auto 43px;
+  font-size: 50px;
+  line-height:4px;
+  text-align: center;
+}
+.botones1 a{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 15px;
+  background-color: #ebc985;
+  color: #393939;
+}
+  .botones1 a:hover {
+  background-color: #ffff;
+}
+.font{
+  text-align: center;
+  margin-left: 40px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+  /*Estilos Get in Touch */
+  
+  .marginIMG{
+    margin-top: 30px;
+  }
+  #formulario{
+    background: #3c5499;
+    justify-content: center;
+    align-items: center;
+  }
+
+.font1, .font2, .fontsection7, .fontsection6{
+    margin-top: 70px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+>>>>>>> 2c54a9bae4ef0488e0fb19c082c989f5aff2ba91
   .fontsection6{
     color: black;
      letter-spacing: 4px;
@@ -255,7 +339,11 @@ body{
   letter-spacing: 3px;
 }
       
+<<<<<<< HEAD
 .line, .line2{
+=======
+.line, .line2, .line3{
+>>>>>>> 2c54a9bae4ef0488e0fb19c082c989f5aff2ba91
     justify-content: center;
     width: 60px;
     border-bottom:  3px  solid #273a71;
@@ -265,6 +353,12 @@ body{
 .line2{
   border-bottom: 3px solid #e5c37f;
 }
+<<<<<<< HEAD
+=======
+.line3{
+  border-bottom: 3px solid #dfe8ed;
+}
+>>>>>>> 2c54a9bae4ef0488e0fb19c082c989f5aff2ba91
 .font1, .font2{
   font-size: 16px;
   font-weight: lighter;
