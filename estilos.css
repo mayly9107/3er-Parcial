@@ -330,7 +330,7 @@ body{
 .form3 p{
   margin-top: 6px;
 }
-.bg5{
-  height: 200px;
-  background: pink;
+.padding{
+  padding-left: 0px;
+  padding-right: 0px;
 }

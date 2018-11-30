@@ -222,8 +222,63 @@ consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
 	</div>
 </div>
 <!--Formulario-->
-<div class="container-fluid bg5">
-	
+<div class="container-fluid padding">
+	<form id="formulario" class="needs-validation" novalidate>
+		<div class="row">
+			<div class="col-md-8 offset-md-2">
+				<h6 class="fontsection7">GET  IN  TOUCH</h6>
+				<div class="line"></div>
+				<h6 class="font1">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</h6>
+			</div>
+		</div>	
+  		<div class="form-row">
+     		<div class="col-md-4 offset-md-2">
+      			<div class="input-group">
+        			<input type="text" class="form-control form" id="validationCustom01" placeholder="Your Name *" aria-describedby="inputGroupPrepend" required>
+        			<div class="invalid-feedback">
+          			Please choose your name.
+        			</div>
+      			</div>
+    		</div>
+    		<div class="col-md-4">
+      			<input type="email" class="form-control form1" id="validationCustom02" placeholder="Your Email *" aria-describedby="inputGroupPrepend" required>
+      			<div class="invalid-feedback">
+       			Please provide your email.
+      			</div>
+   			</div>
+  		</div>
+  		<div class="form-row">
+  			<div class="col-md-8 offset-md-2">
+      			<div class="input-group">
+      				<textarea id="validationCustom03" name="subject" placeholder="Your Message" style="height:200px" class="form-control form2" aria-describedby="inputGroupPrepend" required></textarea>
+        			<div class="invalid-feedback">
+          			Please enter your message.
+        			</div>
+      			</div>
+      			<input type="submit" value=" SEND MESSAGE" class="btn btn-primary form3">
+    		</div>
+  		</div>
+    </form>
 </div>
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
 </body>
 </html>
