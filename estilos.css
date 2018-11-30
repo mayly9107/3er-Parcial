@@ -334,3 +334,19 @@ body{
   padding-left: 0px;
   padding-right: 0px;
 }
+footer{
+  background-color: #344b8e;
+  height: 70px;
+}
+.link1{
+  padding: 25px;
+  color: azure;
+  margin-right: 12px;
+}
+.link1 a{
+  color: azure;
+  text-decoration: none;
+}
+.link1 a:hover{
+  color: #30bae7;
+}
