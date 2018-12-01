@@ -78,6 +78,9 @@ body{
 	transform: scale(1.05);
 		
 	}
+  #work p{
+    margin-top: 6px;
+  }
 	.bg1{
 		height: 750px;
 		background: #17c2a4;
@@ -318,13 +321,13 @@ body{
   padding-bottom: 150px;
 }
 .form3{
-  display: inline-block;
+  display: block;
   background-color: #30bae7;
   border-bottom: 3px solid #299ec5;
   margin-bottom: 70px;
   width: 180px;
   height: 45px;
-  margin-left: 373px;
+  margin: 56px auto;
   color: #fff;
 }
 .form3 p{
@@ -402,4 +405,9 @@ footer{
 .bg5{
   height: 200px;
   background: pink;
+}
+@media (min-width: 576px) and (max-width : 1000px){
+
+
+
 }
