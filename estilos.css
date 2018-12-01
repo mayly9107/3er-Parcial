@@ -350,3 +350,56 @@ footer{
 .link1 a:hover{
   color: #30bae7;
 }
+/*Seccion People say*/
+.bg_rosa{
+  height: 700px;
+  background: #d74680
+}
+.bg_rosa h3{
+  color: white;
+  padding-top: 70px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 27px;
+  }
+.bg_rosa h3:after{
+  content:"";
+  width: 88px;
+  height: 3px;
+  background: #b73c6d;
+  display: block;
+  margin: 15px auto;
+  margin-bottom: -30px;
+  }
+#parrafo2 {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 17px;
+  color: white;
+  }
+  .font2{
+  text-align: center;
+  margin-left: 20px;
+  font-weight: bolder;
+  margin-top: 10px;
+  }
+  .center2 {
+  color: #ffffff;
+  display: inline-flex;
+  text-align: left;
+  }
+  .prueba{
+    color: #fcca99;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .imagenes3 {
+  border-radius: 150px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-right: 33px;
+  }
+.bg5{
+  height: 200px;
+  background: pink;
+}
