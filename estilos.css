@@ -209,9 +209,13 @@ body{
   #skill{
     background-color: #fff;
   }
-
+.marginimg1{
+        display: block;
+    margin: auto;
+  }
   .marginimg{
-    margin-left: 50px;
+        display: block;
+    margin: auto;
   }
   .skillmargin{
     margin-top: 45px;
@@ -698,14 +702,10 @@ footer{
     margin-bottom: 55px;
 
 }
-.Imgdisplay3{
-    width: 70%;
-    margin-bottom: 10px;
-  }
+
   .Imgdisplay4{
-    width: 121%;
-    margin-bottom: 10px;
-        margin-left: 0px;
+        display: block;
+    margin: auto;
   }
 .marginimg{
     margin-left: 21px;
