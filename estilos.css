@@ -1,4 +1,8 @@
-    header{
+      *{
+    margin: 0px;
+    padding: 0px;
+   }
+   header{
   background:url("img/header.png");
   height: 690px;
   background-repeat: no-repeat;
@@ -82,12 +86,12 @@ body{
     margin-top: 6px;
   }
 	.bg1{
-		height: 750px;
+		height: 730px;
 		background: #17c2a4;
 	}
 	.bg1 h2{
 		color: white;
-		padding-top: 110px;
+		padding-top: 69px;
 	}
 	.bg1 h2:after{
 	content:"";
@@ -113,10 +117,10 @@ body{
         padding-bottom: 20px;
 	}
 	.bandera img{
-		display: flex;
+		display: block;
+    margin: auto;
 		height: 140px;
     width: 150px;
-    margin-left: 30px;
 	}
 	.bandera img {
   
@@ -147,11 +151,11 @@ body{
 
 	.bg3{
 		background: #e7f1f8;
-		height: 915px;
+		height: 745px;
 	}
 	.bg3 h3{
 		color: #3c4761;
-		padding-top: 120px;
+		padding-top: 69px;
 		font-size: 28px;
 	}
 	.bg3 h3:after{
@@ -166,9 +170,12 @@ body{
    .bg3 p{
    	color: #5d677b;
    }
+   .mayli{
+    display: block;
+    margin: auto;
+   }
 	.mayli img{
 		border-radius: 100%;
-		margin-left: 25px;
 		margin-top: 60px;
 		height: 150px;
     width: 150px;
@@ -186,14 +193,16 @@ body{
 	.mayli p{
 		color: #5d677b;
 		padding-top: 15px;
-		margin-left: -21px;
 	}
+  .iconos{
+    margin-left: 67px;
+  }
 	.iconos img{
-		    justify-content: center;
+		justify-content: center;
     width: 25px;
     height: 24px;
     margin-top: 10px;
-    margin-left: 21px;
+    margin-left: 20px;
 }
 	
    /*Skills */
@@ -232,10 +241,14 @@ body{
 }
 .font{
   text-align: center;
-  margin-left: 40px;
   font-weight: bolder;
   margin-top: 10px;
 }
+.Imgdisplay2{
+    width: 50%;
+        width: 100%;
+    margin-bottom: 10px;
+  }
   /*Estilos Get in Touch */
   
   .marginIMG{
@@ -245,6 +258,7 @@ body{
     background: #3c5499;
     justify-content: center;
     align-items: center;
+    height: 632px;
   }
 
 
@@ -279,8 +293,7 @@ body{
 .line3{
   border-bottom: 3px solid #dfe8ed;
     width: 70px;
-  
-    margin-left: 387px;
+  margin: auto;
 }
 .font1, .font2{
   font-size: 16px;
@@ -294,7 +307,7 @@ body{
   display: inline-flex;
 
 }
-.form, .form1, .form2, .form3{
+.form, .form2, .form3{
   justify-content: center;
   background: rgba(39,58,113, 0.85);/*rgba es para transparencia*/
   border: none;/*quitar el border*/
@@ -303,16 +316,13 @@ body{
   font-size: 14px;
   color: #fff;/*color dentro del buscador*/
   margin-top: 45px;
-  margin-right: 10px;
   display: block;
   text-decoration: #fff;
 }
 .center{
   margin-left: 50px;
 }
-.form1{
-  width: 432px;
-}
+
 .form2{
   margin-top: 10px;
   width: 770px;
@@ -402,12 +412,418 @@ footer{
   margin-top: 40px;
   margin-right: 33px;
   }
-.bg5{
-  height: 200px;
-  background: pink;
+
+@media (min-width: 320px) and (max-width : 812px){
+
+/*.container-fluid{
+  width: 360px;
+*/
+footer{
+  background-color: #344b8e;
+  height: 100%;
+  /*width: 360px;*/
+  margin-left: auto;
+  margin-right: auto;
 }
-@media (min-width: 576px) and (max-width : 1000px){
+#formulario {
+    background: #3c5499;
+    justify-content: center;
+    align-items: center;
+    height: 120%;
+  }
+.form, .form2{
+  justify-content: center;
+  background: rgba(39,58,113, 0.85);/*rgba es para transparencia*/
+  border: none;/*quitar el border*/
+  border-radius: 3px;
+  height: 35px;
+  font-size: 14px;
+  color: #fff;/*color dentro del buscador*/
+  margin-top: 10px;
+  display: block;
+  text-decoration: #fff;
+}
+  .form{
+    margin-top: 40px;
+  }
+.bg_rosa {
+    height: 120%;
+    background: #d74680;
+}
+ .imagenes3 {
+  border-radius: 150px;
+  margin-top: 40px;
+  margin-right: 33px;
+      width: 29%;
+    height: 56%;
+  }
+.Imgdisplay{
+  display: inline-flex;
+      margin-bottom: 20px;
+    margin-top: 30px;
+}
 
+.center2 {
+  color: #ffffff;
+  display: initial;
+  text-align: left;
+  }
+  .prueba{
+    color: #fcca99;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  /*Seccion Portfolio*/
+  #Portfolio{
+    background-color: #ffdd99;
+  }
+  .botones1 {
+    margin: 37px auto 43px;
+    font-size: 50px;
+    line-height: 4px;
+    text-align: center;
+}
+  .Imgdisplay2{
+    width: 50%;
+        width: 100%;
+    margin-bottom: 10px;
+  }
+.font {
+    text-align: center;
+    font-weight: bolder;
+    /* margin-top: 10px; */
+    display: block;
+    margin: auto;
+}
+.skillmargin {
+    margin-top: 45px;
+    margin-bottom: 55px;
 
+}
+.Imgdisplay3{
+    width: 44%;
+    margin-bottom: 10px;
+    display: block;
+    margin: auto;
+  }
+.marginimg{
+        display: block;
+    margin: auto;
+  }
+.bg3{
+    background: #e7f1f8;
+    height: 1689px;
 
+  }
+/*Seccion we provide*/
+.bg1 {
+    height: 120%;
+    background: #17c2a4;
+}
+.bandera h1{
+    font-size: 20px;
+    color: white;
+    padding-top: 60px;
+        padding-bottom: 20px;
+  }
+  .bandera img{
+    display: block;
+    margin: auto;
+    margin: auto;
+    height: 140px;
+    width: 150px;
+  }
+  .bandera img {
+  
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.bandera:hover img {
+  transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+  .bandera p{
+    color: white;
+    margin-right: -9px;
+  }
+/*header*/
+header {
+    background: url(img/header.png);
+    height: 903px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120%;
+}
+  
+      .ref ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        margin-top: 50px;
+      
+      }
+      
+      .ref li:hover{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 50px; 
+        border-radius: 5px;
+      
+      }
+      
+      .ref li a{
+        
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        padding: 0px 8px;
+
+      
+      }
+.bt1{
+  display: block;
+  margin: auto;
+}
+#work a{
+    border-radius: 3px;
+        border-bottom: 3px solid #c86a40;
+        margin-left: -58px;
+  text-decoration: none;
+    background: #eb7d4b;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 205px;
+    height: 49px;
+    padding: 7px 0px;
+    font-weight: normal;
+    font-size: 14px;
+    transition: 0.5s ease all;
+  }
+   .iconos{
+    margin-left:25%;
+  }
+
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width : 1200px){
+/*footer*/
+footer{
+  background-color: #344b8e;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link1{
+  padding: 25px;
+  color: azure;
+}
+/*Get in touch*/
+#formulario {
+    background: #3c5499;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+.form, .form2{
+  justify-content: center;
+  background: rgba(39,58,113, 0.85);/*rgba es para transparencia*/
+  border: none;/*quitar el border*/
+  border-radius: 3px;
+  height: 35px;
+  font-size: 14px;
+  color: #fff;/*color dentro del buscador*/
+  margin-top: 10px;
+  display: block;
+  text-decoration: #fff;
+}
+  .form{
+    margin-top: 40px;
+  }
+  /*What people say*/
+.bg_rosa {
+    height: 890px;
+    background: #d74680;
+}
+ .imagenes3 {
+  border-radius: 150px;
+  margin-top: 40px;
+  margin-right: 33px;
+      width: 34%;
+    height: 39%;
+  }
+
+.center2 {
+  color: #ffffff;
+  display: -webkit-inline-box;
+  text-align: left;
+  }
+  .prueba{
+    color: #fcca99;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }*/
+  /*Seccion Portfolio*/
+  #Portfolio{
+    background-color: #ffdd99;
+  }
+  .Imgdisplay2{
+    width: 50%;
+        width: 100%;
+    margin-bottom: 10px;
+  }
+.font {
+    text-align: center;
+    font-weight: bolder;
+    /* margin-top: 10px; */
+    display: block;
+    margin: auto;
+}
+/*Seccion skill*/
+.skillmargin {
+    margin-top: 45px;
+    margin-bottom: 55px;
+
+}
+.Imgdisplay3{
+    width: 70%;
+    margin-bottom: 10px;
+  }
+  .Imgdisplay4{
+    width: 121%;
+    margin-bottom: 10px;
+        margin-left: 0px;
+  }
+.marginimg{
+    margin-left: 21px;
+  }
+  /*Our Team*/
+.bg3{
+    background: #e7f1f8;
+    height: 761px;
+
+  }
+    .iconos{
+    margin-left: 0px;
+  }
+  .iconos img{
+    justify-content: center;
+    width: 25px;
+    height: 24px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/*Seccion we provide*/
+.bg1 {
+    height: 756px;
+    background: #17c2a4;
+}
+.bandera{
+  margin-right: 20px;
+}
+.bandera h1{
+    font-size: 20px;
+    color: white;
+    padding-top: 60px;
+        padding-bottom: 20px;
+  }
+  .bandera img{
+    display: block;
+    margin: auto;
+    height: 140px;
+    width: 150px;
+    margin-top: 42px;
+  }
+  .bandera img {
+  
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.bandera:hover img {
+  transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+  .bandera p{
+    color: white;
+    margin-right: -9px;
+  }
+/*header*/
+header {
+    background: url(img/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 590px;
+}
+.bt1{
+  display: block;
+  margin: auto;
+}
+.ref ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        margin-top: 50px;
+      
+      }
+      
+      .ref li:hover{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 50px; 
+        border-radius: 5px;
+      
+      }
+      
+      .ref li a{
+        
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        padding: 16px 9px;
+
+      
+      }
+#work a{
+    border-radius: 3px;
+        border-bottom: 3px solid #c86a40;
+        margin-left: -58px;
+  text-decoration: none;
+    background: #eb7d4b;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 205px;
+    height: 49px;
+    padding: 7px 0px;
+    font-weight: normal;
+    font-size: 14px;
+    transition: 0.5s ease all;
+  }
 }
