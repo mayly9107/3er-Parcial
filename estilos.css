@@ -571,6 +571,7 @@ header {
     background-size: cover;
     width: 120%;
 }
+
   
       .ref ul{
         margin: 0;
@@ -593,10 +594,11 @@ header {
         text-decoration: none;
         color: white;
         font-size: 14px;
-        padding: 0px 8px;
+        padding: 13px 8px;
 
       
       }
+}
 .bt1{
   display: block;
   margin: auto;
