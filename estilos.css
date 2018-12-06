@@ -3,7 +3,7 @@
     padding: 0px;
    }
    header{
-  background:url("img/header.png");
+  background:url("img/header.jpg");
   height: 690px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -413,7 +413,7 @@ footer{
   margin-right: 33px;
   }
 
-@media (min-width: 320px) and (max-width : 812px){
+@media only screen and (min-width: 320px) and (max-width : 812px){
 
 /*.container-fluid{
   width: 360px;
@@ -561,7 +561,7 @@ footer{
   }
 /*header*/
 header {
-    background: url(img/header.png);
+    background: url(img/header.jpg);
     height: 903px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -619,7 +619,7 @@ header {
 
 }
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width : 1200px){
+@media only screen and (min-width: 768px) and (max-width : 1200px){
 /*footer*/
 footer{
   background-color: #344b8e;
@@ -775,7 +775,7 @@ footer{
   }
 /*header*/
 header {
-    background: url(img/header.png);
+    background: url(img/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
